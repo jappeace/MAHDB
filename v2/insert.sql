@@ -1,8 +1,6 @@
 BEGIN;
 INSERT INTO event (payload, type, created)
-    VALUES ('{"email":"hi@jappie.me"}',
-        /* whatever event source data*/
-        'create-user', now());
+    VALUES ('{"email":"hi@jappie.me"}', 'create-user', now());
 INSERT INTO event_applied (event_id, created)
 SELECT
     last_value,
