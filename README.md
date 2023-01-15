@@ -2,7 +2,7 @@
 
 > It is possible to commit no mistakes and still lose. That is not a weakness. That is life.
 >
-> - Jean-Luc Picard
+> \- Jean-Luc Picard
 
 Exploration of event source system.
 Run `make` to see what you can do.
